@@ -46,11 +46,14 @@ header{
     }
 }
 
-
+#main main{
+    margin-bottom: 250px;
+}
 
 
 main{
-    margin-top: 250px;
+    margin-top: 230px;
+    margin-bottom: 110px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(56, 67, 77, 0.548);
@@ -59,7 +62,10 @@ main{
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
-
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
 
     h1{
    font-size: 70px; 
@@ -69,7 +75,7 @@ main{
    margin-top: 25px;
 }
 
-    p{
+    .main{
         text-align: center;
         font-size: 40px;
         margin: 0px;
@@ -79,17 +85,47 @@ main{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    a{
-        text-decoration: none;
-        border: 5px white solid;
-        background-color: aliceblue;
 
+    .input{
+        text-align: left;
+        color: aliceblue;
+        font-size: 15px;
     }
+    
+    input{
+        display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 0px black solid;
+    margin-bottom: 0px;
 }
+#Sesión{
+    background-color: rgb(76, 87, 83);
+    pointer-events: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.contraseña{
+    text-decoration: none;
+    display: flex;
+        color: aliceblue;
+        margin-bottom: 12px;
+        text-align: left;
+    }
+    
+div{
+    margin-top: 30px;
+}
+
+}
+
     
 
 footer{
-    margin-top: 225px;
+    margin-top:auto;
     background-color: rgb(42, 49, 58);
     display: flex;
     justify-content: space-between;
